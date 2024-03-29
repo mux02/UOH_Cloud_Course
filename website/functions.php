@@ -8,7 +8,7 @@ function check_login()
 		$id = $_SESSION['User_Id'];
 		
         // Backend for API
-        $url = "https://c52zc62537.execute-api.me-south-1.amazonaws.com/default/AWS_getId"; // Type your API link here (AWS_getId Lambda function)
+        $url = ""; // Type your API link here (AWS_getId Lambda function)
 
         // Sending request through the following configuration...
         $curl = curl_init($url);
@@ -65,7 +65,7 @@ function redir_login()
 		$id = $_SESSION['User_Id'];
 		
         // Backend for API
-        $url = "https://c52zc62537.execute-api.me-south-1.amazonaws.com/default/AWS_getId"; // Type your API link here (AWS_getId Lambda function)
+        $url = ""; // Type your API link here (AWS_getId Lambda function)
 
         // Sending request through the following configuration...
         $curl = curl_init($url);

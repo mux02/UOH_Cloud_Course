@@ -12,7 +12,7 @@ if(isset($_POST['login'])) // When click the button
             $error = '';
 
 			// Backend for API
-            $url = "https://c52zc62537.execute-api.me-south-1.amazonaws.com/default/AWS_Login"; // Type your API link here (AWS_Login Lambda function)
+            $url = ""; // Type your API link here (AWS_Login Lambda function)
 
             // Sending request through the following configuration...
             $curl = curl_init($url);
